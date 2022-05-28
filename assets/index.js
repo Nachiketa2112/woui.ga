@@ -1,5 +1,5 @@
 
-var start = new Date("May 24, 2021 23:18:00").getTime();
+var start = new Date("Feb 2, 2022 13:29:00").getTime();
 var x = setInterval(function () {
     var now = new Date().getTime();
     var elapsed = now - start;
@@ -15,8 +15,8 @@ var x = setInterval(function () {
     document.getElementById("secs").innerHTML = seconds;
 }, 1000);
 
-// var start = new Date("May 24, 2021 23:18:00").getTime();
-// var end = new Date("Apr 25, 2022 22:08:00").getTime();
+// var start = new Date("Feb 2, 2022 13:29:00").getTime();
+// var end = new Date("January 3, 2023 13:29:00").getTime();
 
 // var elapsed = end - start;
 
